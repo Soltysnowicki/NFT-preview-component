@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Outfit;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-flow: column ;
+    height: 35rem;
+    width: 18rem;
+    background-color: hsl(216, 50%, 16%);
+    justify-content: flex-start;
+    margin-top: 10rem;
+    border-radius: 5%;
+    
+}
+
+img{
+inline-size:85%;
+margin-top: 1.5rem;
+justify-content: center;
+}
+
+header{
+font-size: 1rem;
+color:hsl(0, 0%, 100%);
+}
+
+.stock{
+
+}
+
+.date{
+
+}
+
+.creator{
+    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
