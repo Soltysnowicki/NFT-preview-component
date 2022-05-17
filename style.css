@@ -4,48 +4,89 @@
 }
 
 body{
+    display:flex;
+    justify-content: center;
     font-family: Outfit;
     font-size: 18px;
     width: 100%;
-    display: flex;
-    justify-content: center;
     background-color: hsl(217, 54%, 11%);
     min-height: 100vh;
+    margin:auto;
 }
 
 main{
-    display: flex;
-    flex-flow: column ;
-    height: 35rem;
-    width: 18rem;
+    display:flex;
+    flex-flow: row wrap;
+    height: 596px;
+    width: 350px;
     background-color: hsl(216, 50%, 16%);
-    justify-content: flex-start;
     margin-top: 10rem;
-    border-radius: 5%;
-    
+    border-radius: 15px;
+    justify-self: center;
+    align-content: center;
 }
 
-img{
-inline-size:85%;
-margin-top: 1.5rem;
-justify-content: center;
+.hero{
+width: 302px;
+height: 302px;
+margin: 24px;
+border-radius: 8px;
 }
 
 header{
-font-size: 1rem;
+font-size: 18px;
 color:hsl(0, 0%, 100%);
+margin-left: 24px;
+font-weight: 600;
+margin-bottom: 16px;
+}
+
+h2{
+     color:#8BACD9;
+     margin-left: 24px;
+     font-size: 18px;
+     font-weight: 400;
+     margin-bottom: 24px;
 }
 
 .stock{
-
+ color: #00FFF8;
+ margin-left: 24px;
+ font-size: 16px;
+}
+.stock img{
+    height: 18px;
+    width: 11px;
+    float: left;
 }
 
-.date{
+.date {
+color: #8BACD9;
+margin-left: 133px;
+font-size: 16px;
+float:none;
+}
 
+.date img{
+    height: 16px;
+    width: 16px;
+    float: left;
 }
 
 .creator{
+    color: #8BACD9;
+    margin-left: 24px;
+}
+
+.name{
+    color: #FFFFFF;
     
+}
+
+.avatar{
+    width: 33px;
+    height: 33px;
+    float: left;
 }
 
 .attribution { 
