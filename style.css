@@ -7,11 +7,7 @@ body{
     display:flex;
     justify-content: center;
     font-family: Outfit;
-    font-size: 18px;
-    width: 100%;
     background-color: hsl(217, 54%, 11%);
-    min-height: 100vh;
-    margin:auto;
 }
 
 main{
@@ -29,12 +25,13 @@ main{
 .hero{
 width: 302px;
 height: 302px;
-margin: 24px;
+margin: 0px 24px 24px 24px;
 border-radius: 8px;
+background-color: #00FFF8;
 }
 
 header{
-font-size: 18px;
+font-size: 13px;
 color:hsl(0, 0%, 100%);
 margin-left: 24px;
 font-weight: 600;
@@ -49,6 +46,11 @@ h2{
      margin-bottom: 24px;
 }
 
+.state{
+    display:flex;
+    align-items: center;
+}
+
 .stock{
  color: #00FFF8;
  margin-left: 24px;
@@ -58,19 +60,26 @@ h2{
     height: 18px;
     width: 11px;
     float: left;
+    margin-right: 7px;
 }
 
 .date {
 color: #8BACD9;
-margin-left: 133px;
+margin-left: 110px;
+margin-right: 24px;
 font-size: 16px;
-float:none;
 }
 
 .date img{
     height: 16px;
     width: 16px;
     float: left;
+    margin-right: 8px;
+}
+
+hr{
+    margin: 24px 24px 16px 24px;
+    border-color: #8BACD9;
 }
 
 .creator{
@@ -79,7 +88,7 @@ float:none;
 }
 
 .name{
-    color: #FFFFFF;
+    color: #FFFFFF ;
     
 }
 
@@ -87,6 +96,29 @@ float:none;
     width: 33px;
     height: 33px;
     float: left;
+    border: solid white 1px;
+    border-radius:100%;
+    margin-right: 16px;
+}
+
+.fade {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  
+/*hover transition*/
+.hero:hover{
+    opacity: 0.1;
+}
+
+
+header:hover{
+    color:#00FFF8;
+}
+
+.name:hover{
+    color:#00FFF8;
 }
 
 .attribution { 
